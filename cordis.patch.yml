@@ -1,0 +1,11 @@
+- insert:
+    - id: dsh-sync-tool
+      name: '@local/dsh-sync-tool'
+      config:
+        gitUrl: ''
+        authMethod: local
+        gitTokenRef: null
+        autoSync: false
+        syncInterval: 300
+        includeCredentials: false
+        customGitignore: ''

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="syncGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="syncGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Bidirectional arrows for sync -->
+  <path d="M20 24 L20 16 L12 16" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" />
+  <path d="M12 16 L8 16" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" />
+  <path d="M44 24 L44 16 L52 16" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" />
+  <path d="M52 16 L56 16" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" />
+  
+  <path d="M44 48 L44 56 L52 56" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" />
+  <path d="M52 56 L56 56" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" />
+  <path d="M20 48 L20 56 L12 56" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" />
+  <path d="M12 56 L8 56" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Central disk -->
+  <circle cx="32" cy="32" r="12" fill="url(#syncGrad)" stroke="#4f46e5" stroke-width="2" />
+  
+  <!-- Sync arrows -->
+  <path d="M28 28 L28 38 M28 38 L24 38 M28 38 L32 38" stroke="white" stroke-width="2" stroke-linecap="round" />
+  <path d="M36 28 L36 38 M36 38 L40 38 M36 38 L32 38" stroke="white" stroke-width="2" stroke-linecap="round" />
+  <path d="M28 36 L28 40 M28 40 L24 40 M28 40 L32 40" stroke="white" stroke-width="2" stroke-linecap="round" />
+  <path d="M36 36 L36 40 M36 40 L40 40 M36 40 L32 40" stroke="white" stroke-width="2" stroke-linecap="round" />
+</svg>

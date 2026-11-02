@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "DSH Sync Tool",
+    "description": "Git-based synchronization for global DSH configurations across devices. Syncs MCAPs, skills, plugins, and agent presets. Sessions are NOT synced."
+  },
+  "plugins": {
+    "dsh-sync-init": {
+      "title": "Initialize Repository",
+      "description": "Initialize local git repository or clone from configured remote URL."
+    },
+    "dsh-sync-pull": {
+      "title": "Pull Configuration",
+      "description": "Pull latest configuration from remote repository."
+    },
+    "dsh-sync-push": {
+      "title": "Push Configuration",
+      "description": "Commit and push configuration changes to remote repository."
+    },
+    "dsh-sync-status": {
+      "title": "Check Sync Status",
+      "description": "Check git status, detect conflicts, and view sync health."
+    },
+    "dsh-sync": {
+      "title": "Full Sync",
+      "description": "Perform full sync: pull remote changes, then push local changes."
+    }
+  },
+  "ui": {
+    "title": "DSH Sync Tool",
+    "description": "Git-based sync for your global DSH configurations across devices.",
+    "setupSection": "Repository Setup",
+    "initButton": "Initialize Repository",
+    "syncSection": "Sync Actions",
+    "pullButton": "Pull",
+    "pushButton": "Push",
+    "fullSyncButton": "Full Sync",
+    "statusSection": "Status",
+    "notInitialized": "Repository not initialized",
+    "connected": "Connected - Ready to sync",
+    "authMethod": "Authentication Method",
+    "sshOption": "SSH Key (use existing)",
+    "tokenOption": "Personal Access Token",
+    "remoteUrl": "Remote Repository URL",
+    "tokenPlaceholder": "ghp_xxxxxxxxxxxxxxxxxxxx",
+    "urlPlaceholder": "https://github.com/username/dsh-config.git",
+    "autoSync": "Enable auto-sync",
+    "interval": "Sync interval (seconds)",
+    "gitignore": "Custom .gitignore patterns (one per line)"
+  }
+}
